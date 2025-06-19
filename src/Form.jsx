@@ -122,6 +122,7 @@ function Form() {
                 <table className="table">
                     <thead>
                         <tr>
+                            <th scope="col">Sr. No</th>
                             <th scope="col">Name</th>
                             <th scope="col">City</th>
                             <th scope="col">Salary</th>
@@ -132,7 +133,8 @@ function Form() {
                     <tbody>
                         {allData.map((item, index) => {
                             return (<tr key={index}>
-                                <td scope="row">{item.name}</td>
+                                <td>{index + 1}</td>
+                                <td>{item.name}</td>
                                 <td>{item.city}</td>
                                 <td>{item.salary}</td>
                                 <td>{item.mobile}</td>

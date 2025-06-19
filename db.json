@@ -6,6 +6,13 @@
       "city": "Surat",
       "salary": "125896",
       "mobile": "1234569870"
+    },
+    {
+      "id": "badd",
+      "name": "nayan",
+      "city": "Surat",
+      "salary": "200000",
+      "mobile": "7896325689"
     }
   ]
 }
